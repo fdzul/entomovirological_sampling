@@ -1,0 +1,45 @@
+---
+title: "Vigilancia Entomovirológica en Mexico "
+format: 
+  dashboard:
+      nav-buttons: [twitter, github, facebook]
+theme: custom.scss
+---
+
+
+# [**Muestreo Entomo**]{style="font-size:8pt"}
+
+::: panel-tabset
+### [**Guadalajara**]{style="color:#990000"}
+
+### [**Monterrey**]{style="color:#990000"}
+
+### [**Ciudad de México**]{style="color:#990000"}
+
+
+:::
+
+# [**Focos de Transmisión Persistente**]{style="font-size:8pt"}
+
+::: panel-tabset
+
+### [**Guadalajara**]{style="color:#990000"}
+
+### [**Monterrey**]{style="color:#990000"}
+
+### [**Ciudad de México**]{style="color:#990000"}
+
+:::
+
+
+# [**Focos de Transmisión Activa**]{style="font-size:8pt"}
+
+::: panel-tabset
+
+### [**Guadalajara**]{style="color:#990000"}
+
+### [**Monterrey**]{style="color:#990000"}
+
+### [**Ciudad de México**]{style="color:#990000"}
+
+:::
