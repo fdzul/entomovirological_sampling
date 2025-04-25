@@ -12,6 +12,21 @@ theme: custom.scss
 ::: panel-tabset
 ### [**Guadalajara**]{style="color:#990000"}
 
+```{r}
+load("~/Dropbox/projects/INSP/Secihti/vigilancia_entomovirologica/entomovirologia_mexico/8.RData/entomovirological_sampling_guadalajara.RData")
+mapview::mapview(gua_hex,
+                 alpha.regions = 0.1,
+                 legend = F) +
+    mapview::mapview(sample,
+                     col.regions = "#E01A59",
+                     legend = F) +
+    mapview::mapview(hex_b,
+                     col.regions = "#63C1A0",
+                     legend = F)
+
+```
+
+
 ### [**Monterrey**]{style="color:#990000"}
 
 ### [**Ciudad de México**]{style="color:#990000"}
@@ -25,6 +40,8 @@ theme: custom.scss
 
 ### [**Guadalajara**]{style="color:#990000"}
 
+
+
 ### [**Monterrey**]{style="color:#990000"}
 
 ### [**Ciudad de México**]{style="color:#990000"}
@@ -32,14 +49,4 @@ theme: custom.scss
 :::
 
 
-# [**Focos de Transmisión Activa**]{style="font-size:8pt"}
 
-::: panel-tabset
-
-### [**Guadalajara**]{style="color:#990000"}
-
-### [**Monterrey**]{style="color:#990000"}
-
-### [**Ciudad de México**]{style="color:#990000"}
-
-:::
